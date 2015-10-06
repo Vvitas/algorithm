@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove Linked List Elements
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Add Binary", "Add Binary\Add Binary.vcxproj", "{3E65D115-B51D-475F-B9CD-5B872544C67F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse Integer", "Reverse Integer\Reverse Integer.vcxproj", "{DE7A1B84-7176-45F2-82AB-62DB5A0132C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -391,6 +393,14 @@ Global
 		{3E65D115-B51D-475F-B9CD-5B872544C67F}.Release|x64.Build.0 = Release|x64
 		{3E65D115-B51D-475F-B9CD-5B872544C67F}.Release|x86.ActiveCfg = Release|Win32
 		{3E65D115-B51D-475F-B9CD-5B872544C67F}.Release|x86.Build.0 = Release|Win32
+		{DE7A1B84-7176-45F2-82AB-62DB5A0132C7}.Debug|x64.ActiveCfg = Debug|x64
+		{DE7A1B84-7176-45F2-82AB-62DB5A0132C7}.Debug|x64.Build.0 = Debug|x64
+		{DE7A1B84-7176-45F2-82AB-62DB5A0132C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE7A1B84-7176-45F2-82AB-62DB5A0132C7}.Debug|x86.Build.0 = Debug|Win32
+		{DE7A1B84-7176-45F2-82AB-62DB5A0132C7}.Release|x64.ActiveCfg = Release|x64
+		{DE7A1B84-7176-45F2-82AB-62DB5A0132C7}.Release|x64.Build.0 = Release|x64
+		{DE7A1B84-7176-45F2-82AB-62DB5A0132C7}.Release|x86.ActiveCfg = Release|Win32
+		{DE7A1B84-7176-45F2-82AB-62DB5A0132C7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
