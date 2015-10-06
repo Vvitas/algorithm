@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{26740813-1BBB-42EB-8E7E-1C6621E9DE2D}</ProjectGuid>
+    <ProjectGuid>{DE7A1B84-7176-45F2-82AB-62DB5A0132C7}</ProjectGuid>
     <RootNamespace>ReverseInteger</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
