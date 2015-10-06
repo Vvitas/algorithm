@@ -1,5 +1,5 @@
 #pragma once
-
+#define _CRT_SECURE_NO_DEPRECATE
 #include<cstdlib>
 #include<vector>
 #include<algorithm>

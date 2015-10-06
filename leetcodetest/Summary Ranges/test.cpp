@@ -3,6 +3,7 @@
 class Solution 
 {
 private:
+	//int转string的简单做法,后续可以多多采用
 	string format(int begin, int end)
 	{
 		char buffer[32] = { 0 };
@@ -21,14 +22,14 @@ public:
 	vector<string> summaryRanges(vector<int>& nums) 
 	{
 		vector<string> result;
-		if (nums.size() <= 1) return result;
+		if (nums.size() < 1) return result;
 
 		int left = nums[0], right = nums[0];
 		for (size_t i = 1; i < nums.size(); i++)
 		{
 			if (nums[i] == right || nums[i] == right + 1)
 			{
-				right = nums[i] + 1;
+				right = nums[i];
 			}
 			else
 			{
@@ -43,8 +44,5 @@ public:
 
 int main()
 {
-	vector<int> data(-1, 1);
-	Solution test;
-	test.summaryRanges(data);
 	return 0;
 }
