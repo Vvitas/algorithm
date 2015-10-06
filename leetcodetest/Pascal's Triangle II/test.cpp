@@ -7,7 +7,7 @@ public:
 	{
 		vector<int> result(rowIndex + 1, 1);
 
-		size_t i, j;
+		int i, j;
 		int temp1, temp2;
 		for (i = 2; i <= rowIndex; i++)
 		{
