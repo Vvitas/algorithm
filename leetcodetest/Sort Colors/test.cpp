@@ -5,7 +5,7 @@ class Solution
 public:
 	void sortColors(vector<int>& nums)
 	{
-		unsigned int i, j, numofcolor[3] = { 0 };
+		unsigned int i, numofcolor[3] = { 0 };
 
 		for (i = 0; i < nums.size(); i++)
 		{

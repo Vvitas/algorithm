@@ -28,7 +28,7 @@ public:
 
 		if (result<INT_MIN || result>INT_MAX)
 			return 0;
-		else return result;
+		else return (int)result;
 	}
 };
 

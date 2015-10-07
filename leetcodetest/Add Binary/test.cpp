@@ -11,7 +11,7 @@ public:
 		}
 
 		bool sign = false;
-		int i, len1 = a.size() - 1, len2 = b.size() - 1;
+		int i, len1 = (int)a.size() - 1, len2 = (int)b.size() - 1;
 		for (i = 0; i < b.size(); i++)
 		{
 			if (a[len1 - i] == '0' && b[len2 - i] == '0')

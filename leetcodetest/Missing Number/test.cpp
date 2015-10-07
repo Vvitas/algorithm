@@ -11,7 +11,7 @@ public:
 		for (i = 0; i < len; i++)
 			data[nums[i]] = 1;
 		for (i = 0; i < len + 1; i++)
-			if (!data[i]) return i;
+			if (!data[i]) return (int)i;
 
 		return 0;
 	}

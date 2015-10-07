@@ -5,7 +5,7 @@ class Solution
 public:
 	int searchInsert(vector<int>& nums, int target)
 	{
-		int left = 0, right = nums.size() - 1, mid, length = nums.size();
+		int left = 0, right = (int)nums.size() - 1, mid, length = nums.size();
 
 		while (left <= right)
 		{
