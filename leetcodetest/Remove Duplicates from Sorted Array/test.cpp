@@ -16,7 +16,7 @@ public:
 				nums[++len] = nums[i];
 			}
 		}
-		return len + 1;
+		return (int)len + 1;
 	}
 };
 

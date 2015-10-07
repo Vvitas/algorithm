@@ -12,7 +12,7 @@ public:
 			if (nums[i] != val)
 				nums[len++] = nums[i];
 		}
-		return len;
+		return (int)len;
 	}
 };
 
