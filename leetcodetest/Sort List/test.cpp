@@ -1,4 +1,5 @@
 #include"../leetcodetest/head.h"
+
 class Solution
 {
 public:
