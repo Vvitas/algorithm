@@ -141,6 +141,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Min Stack", "Min Stack\Min 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Tree Paths", "Binary Tree Paths\Binary Tree Paths.vcxproj", "{7FB3720A-CB34-41A5-A4CB-5EC9965E09B3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sum Root to Leaf Numbers", "Sum Root to Leaf Numbers\Sum Root to Leaf Numbers.vcxproj", "{43A004CE-401A-497B-A719-943C897A3B82}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove Duplicates from Sorted List II", "Remove Duplicates from Sorted List II\Remove Duplicates from Sorted List II.vcxproj", "{276AFA36-8C1E-485C-A72C-5A0B4A089044}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -701,6 +705,22 @@ Global
 		{7FB3720A-CB34-41A5-A4CB-5EC9965E09B3}.Release|x64.Build.0 = Release|x64
 		{7FB3720A-CB34-41A5-A4CB-5EC9965E09B3}.Release|x86.ActiveCfg = Release|Win32
 		{7FB3720A-CB34-41A5-A4CB-5EC9965E09B3}.Release|x86.Build.0 = Release|Win32
+		{43A004CE-401A-497B-A719-943C897A3B82}.Debug|x64.ActiveCfg = Debug|x64
+		{43A004CE-401A-497B-A719-943C897A3B82}.Debug|x64.Build.0 = Debug|x64
+		{43A004CE-401A-497B-A719-943C897A3B82}.Debug|x86.ActiveCfg = Debug|Win32
+		{43A004CE-401A-497B-A719-943C897A3B82}.Debug|x86.Build.0 = Debug|Win32
+		{43A004CE-401A-497B-A719-943C897A3B82}.Release|x64.ActiveCfg = Release|x64
+		{43A004CE-401A-497B-A719-943C897A3B82}.Release|x64.Build.0 = Release|x64
+		{43A004CE-401A-497B-A719-943C897A3B82}.Release|x86.ActiveCfg = Release|Win32
+		{43A004CE-401A-497B-A719-943C897A3B82}.Release|x86.Build.0 = Release|Win32
+		{276AFA36-8C1E-485C-A72C-5A0B4A089044}.Debug|x64.ActiveCfg = Debug|x64
+		{276AFA36-8C1E-485C-A72C-5A0B4A089044}.Debug|x64.Build.0 = Debug|x64
+		{276AFA36-8C1E-485C-A72C-5A0B4A089044}.Debug|x86.ActiveCfg = Debug|Win32
+		{276AFA36-8C1E-485C-A72C-5A0B4A089044}.Debug|x86.Build.0 = Debug|Win32
+		{276AFA36-8C1E-485C-A72C-5A0B4A089044}.Release|x64.ActiveCfg = Release|x64
+		{276AFA36-8C1E-485C-A72C-5A0B4A089044}.Release|x64.Build.0 = Release|x64
+		{276AFA36-8C1E-485C-A72C-5A0B4A089044}.Release|x86.ActiveCfg = Release|Win32
+		{276AFA36-8C1E-485C-A72C-5A0B4A089044}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
