@@ -92,8 +92,5 @@ public:
 
 int main()
 {
-	Solution test;
-	cout << test.multiply("42", "10") << "==" << 54321 * 980 << endl;
-
 	return 0;
 }
