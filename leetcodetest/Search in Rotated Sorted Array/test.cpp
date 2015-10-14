@@ -15,7 +15,7 @@ private:
 		{
 			mid = left + (right - left) / 2;
 			if (nums[mid] == target)
-				return mid;
+				return (int)mid;
 			else if (nums[mid] < target)
 				left = mid + 1;
 			else if (nums[mid] > target)
