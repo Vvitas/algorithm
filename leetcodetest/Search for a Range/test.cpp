@@ -10,7 +10,7 @@ public:
 		if (nums.size() <= 0 || target<nums[0] || target>nums[nums.size() - 1])
 			return result;
 
-		int i, left = 0, right = nums.size() - 1, mid;
+		int i, left = 0, right = (int)nums.size() - 1, mid;
 		while (left <= right)
 		{
 			mid = left + (right - left) / 2;
@@ -30,7 +30,7 @@ public:
 					}
 				}
 				if (nums[nums.size() - 1] == target)
-					result[1] = nums.size() - 1;
+					result[1] = (int)nums.size() - 1;
 				else
 				{
 					for (i = mid; i < nums.size(); i++)
