@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{14fb0cfc-febc-4608-a6a1-0c5c62f243ea}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Power of Three.py</StartupFile>
+    <StartupFile>Range Sum Query - Immutable.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -28,6 +28,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Power of Two.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Range Sum Query - Immutable.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
