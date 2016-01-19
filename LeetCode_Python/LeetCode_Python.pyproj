@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{14fb0cfc-febc-4608-a6a1-0c5c62f243ea}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Isomorphic Strings.py</StartupFile>
+    <StartupFile>Power of Three.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Isomorphic Strings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Power of Three.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Power of Two.py">
