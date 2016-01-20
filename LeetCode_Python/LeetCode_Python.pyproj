@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{14fb0cfc-febc-4608-a6a1-0c5c62f243ea}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Range Sum Query - Immutable.py</StartupFile>
+    <StartupFile>Valid Palindrome.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -21,6 +21,9 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Excel Sheet Column Title.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Isomorphic Strings.py">
       <SubType>Code</SubType>
     </Compile>
@@ -31,6 +34,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Range Sum Query - Immutable.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Valid Palindrome.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
