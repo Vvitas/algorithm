@@ -42,6 +42,9 @@
     <Compile Include="Power of Two.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="pow_x_n.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Range Sum Query - Immutable.py">
       <SubType>Code</SubType>
     </Compile>
