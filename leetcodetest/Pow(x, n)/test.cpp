@@ -1,44 +1,36 @@
 #include"../leetcodetest/head.h"
 
-class Solution 
+class Solution
 {
 private:
 	bool isEqual(const double& a, const double& b)
 	{
-		return (fabs(a - b) < 1e-6) ? true : false;
+		return (fabs(a - b) < 1e-10) ? true : false;
 	}
 
 	double PowNum(const double& x, int n)
 	{
-		if (0 == n)
-			return 1.0;
-		else if (1 == n)
-			return x;
+		if (0 == n) return 1.0;
+		else if (1 == n) return x;
 
 		double res = PowNum(x, n >> 1);
-		res *= res;
-
-		return (n & 0x01) ? (res*x) : res;
+		return (n & 0x01) ? (res*res*x) : res*res;
 	}
 
 public:
-	double myPow(double x, int n) 
+	double myPow(double x, int n)
 	{
-		if (isEqual(x, 0))
-			return 0;
-		if (isEqual(x, 1.0))
-			return 1.0;
+		if (isEqual(x, 0))   return 0;
+		if (isEqual(x, 1.0)) return 1.0;
 		if (isEqual(x, -1.0))
-			if (n & 0x01) return -1.0;
-			else return 1.0;
-
+		{
+			if (n & 0x01)    return -1.0; else return 1.0;
+		}
 		if (n == 0) return 1.0;
 
-		bool sign = n < 0 ? true : false;
-		n *= sign ? -1 : 1;
-
-		double res = PowNum(x, n);
-		return sign ? (1.0 / res) : res;
+		if (n < 0)
+			return 1.0 / PowNum(x, -n);
+		else return PowNum(x, n);
 	}
 };
 
