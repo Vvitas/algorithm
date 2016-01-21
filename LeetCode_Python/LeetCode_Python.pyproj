@@ -48,6 +48,9 @@
     <Compile Include="Reverse Bits.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Single Number.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Valid Palindrome.py">
       <SubType>Code</SubType>
     </Compile>
