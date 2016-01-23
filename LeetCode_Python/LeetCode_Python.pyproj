@@ -57,6 +57,9 @@
     <Compile Include="Single Number.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Sort Colors.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Valid Palindrome.py">
       <SubType>Code</SubType>
     </Compile>
