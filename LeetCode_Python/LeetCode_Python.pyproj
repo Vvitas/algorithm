@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{14fb0cfc-febc-4608-a6a1-0c5c62f243ea}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Majority Element.py</StartupFile>
+    <StartupFile>Product of Array Except Self.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -49,6 +49,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pow_x_n.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Product of Array Except Self.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Range Sum Query - Immutable.py">
