@@ -36,6 +36,9 @@
     <Compile Include="Majority Element.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Maximum Subarray.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Number of 1 Bits.py">
       <SubType>Code</SubType>
     </Compile>
