@@ -1,5 +1,4 @@
 #include<vector>
-#include<array>
 using namespace std;
 
 class Solution {
