@@ -34,4 +34,17 @@ namespace CuteSTL
 		free_lists[index] = t_free_lists->next;
 		return t_free_lists;
 	}
+
+	void alloc::deallocate(void *ptr, size_t bytes)
+	{
+		if (bytes > (size_t)CMaxBytes::MAXBYTES)
+		{
+			free(ptr); return; //大于128,直接销毁
+		}
+
+		size_t index = ROUND_UP(bytes);
+		obj* node = static_cast<obj*>(ptr);
+		node->next = free_lists[index];
+		free_lists[index] = node; //此段代码的意义尚未清楚
+	}
 }
