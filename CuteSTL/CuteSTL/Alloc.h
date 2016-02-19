@@ -38,7 +38,7 @@ namespace CuteSTL
 		static void* refill(size_t n);
 		//配置一大块空间,可容纳nobjs个大小为size的区块
 		//如果配置nobjs个区块有所不便,nobjs数量降低
-		static char* chunk_alloc(size_t size, int& nobjs);
+		static char* chunk_alloc(size_t size, size_t& nobjs);
 
 		//chunk allocation state
 		static char* start_free; //内存池起始位置,仅在chunk_alloc()中变化
