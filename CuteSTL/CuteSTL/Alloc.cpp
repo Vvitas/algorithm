@@ -91,4 +91,59 @@ namespace CuteSTL
 		}
 		return result;
 	}
+
+	//假设bytes已经上调至8的倍数
+	char* alloc::chunk_alloc(size_t bytes, size_t& nobjs)
+	{
+		char *result = 0;
+		size_t total_bytes = bytes*nobjs;
+		size_t bytes_left = end_free - start_free; //内存池剩余空间
+
+		if (bytes_left >= total_bytes) //内存池剩余空间满足需求
+		{
+			result = start_free;
+			start_free += total_bytes;
+			return result;
+		}
+		else if (bytes_left >= bytes) //内存池剩余空间不能完全满足需求量,但足够供应一个以上区块
+		{
+			nobjs = bytes_left / bytes;
+			total_bytes = nobjs*bytes;
+			result = start_free;
+			start_free += total_bytes;
+			return result;
+		}
+		else //内存池剩余空间严重不足
+		{
+			size_t bytes_to_get = 2 * total_bytes + ROUND_UP(heap_size >> 4);
+			if (bytes_left > 0) //利用内存池的剩余空间
+			{
+				obj** my_free_list = free_lists + FREELISTS_INDEX(bytes_left);
+				((obj*)start_free)->next = *my_free_list;
+				*my_free_list = (obj*)start_free;
+			}
+			start_free = (char*)malloc(bytes_to_get);
+			if (!start_free)
+			{
+				obj** my_free_list = 0, *p = 0;
+				for (int i = 0;i < CMaxBytes::MAXBYTES;i+=CAlign::ALIGN)
+				{
+					my_free_list = free_lists + FREELISTS_INDEX(i);
+					p = *my_free_list;
+					if (0 != p)
+					{
+						*my_free_list = p->next;
+						start_free = (char*)p;
+						end_free = start_free + i;
+						//递归调用自己，以便修正nobjs
+						return chunk_alloc(bytes, nobjs);
+					}
+				}
+				end_free = 0;
+			}
+			heap_size += bytes_to_get;
+			end_free = start_free + bytes_to_get;
+			return chunk_alloc(bytes, nobjs);
+		}
+	}
 }
