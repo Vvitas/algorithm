@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{14fb0cfc-febc-4608-a6a1-0c5c62f243ea}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Product of Array Except Self.py</StartupFile>
+    <StartupFile>Best Time to Buy and Sell Stock II.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -21,6 +21,9 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Best Time to Buy and Sell Stock II.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Best Time to Buy and Sell Stock.py">
       <SubType>Code</SubType>
     </Compile>
