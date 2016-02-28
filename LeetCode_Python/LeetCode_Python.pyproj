@@ -39,6 +39,9 @@
     <Compile Include="Delete Node in a Linked List.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Excel Sheet Column Number.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Excel Sheet Column Title.py">
       <SubType>Code</SubType>
     </Compile>
