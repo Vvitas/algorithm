@@ -33,6 +33,9 @@
     <Compile Include="Climbing Stairs.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Contains Duplicate.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Delete Node in a Linked List.py">
       <SubType>Code</SubType>
     </Compile>
