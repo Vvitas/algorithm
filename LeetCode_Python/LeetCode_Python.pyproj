@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{14fb0cfc-febc-4608-a6a1-0c5c62f243ea}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Best Time to Buy and Sell Stock II.py</StartupFile>
+    <StartupFile>Find Peak Element.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -43,6 +43,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Excel Sheet Column Title.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Find Peak Element.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Implement strStr.py">
