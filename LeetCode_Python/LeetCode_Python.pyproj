@@ -54,6 +54,9 @@
     <Compile Include="Isomorphic Strings.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Length of Last Word.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Majority Element.py">
       <SubType>Code</SubType>
     </Compile>
